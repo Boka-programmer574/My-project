@@ -1,0 +1,33 @@
+.app-wrapper {
+  display: grid;
+  width: 1920px;
+
+  grid-template-areas:
+  "f f"
+  "n c";
+
+  grid-template-rows: 250px 3fr;
+  grid-template-columns: 1fr 7fr;
+  /* grid-row: 10px; */
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+

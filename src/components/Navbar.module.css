@@ -1,0 +1,14 @@
+.nav {
+    grid-area: n;
+    background-color: lawngreen;
+    margin: 1px;
+    font-weight: bold;
+    
+  }
+
+  
+
+  .item {
+      color:green;
+  }
+  
