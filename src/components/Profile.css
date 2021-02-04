@@ -5,6 +5,7 @@
     font-weight: 30px;
   }
 
-  /* .item {
-      
-  } */
+  .item {
+      color: mediumseagreen;
+      margin: 3px;
+  }

@@ -1,7 +1,7 @@
 .nav {
     grid-area: n;
     background-color: lawngreen;
-    margin: 1px;
+    /* margin: 1px; */
     font-weight: bold;
     
   }
@@ -9,6 +9,7 @@
   
 
   .item {
-      color:green;
+      color: mediumvioletred;
+      margin: 3px;
   }
   
