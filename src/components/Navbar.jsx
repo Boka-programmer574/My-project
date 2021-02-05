@@ -1,5 +1,8 @@
 import React from 'react';
 import s from './Navbar.module.css';
+console.log(s);
+
+
 
 const Navbar = () => {
     return (
@@ -7,7 +10,7 @@ const Navbar = () => {
         <div className={s.item}>
           <a>Model</a>
         </div>
-        <div className={s.item}>
+        <div className={s.active}>
           <a>Year</a>
         </div>
         <div className={s.item}>

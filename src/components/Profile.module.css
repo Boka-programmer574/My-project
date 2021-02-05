@@ -9,3 +9,7 @@
       color: mediumseagreen;
       margin: 3px;
   }
+
+  .content img {
+      width: 500px;
+  }
