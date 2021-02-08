@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className={s.item}>
           <a>Model</a>
         </div>
-        <div className={s.active}>
+        <div className={s.item}>
           <a>Year</a>
         </div>
         <div className={s.item}>
