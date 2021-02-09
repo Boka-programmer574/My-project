@@ -1,0 +1,11 @@
+
+
+.item {
+    color: rgb(39, 54, 104);
+    margin: 5px;
+    block-size: 15px;
+}
+
+.posts img {
+    width: 30px;
+}

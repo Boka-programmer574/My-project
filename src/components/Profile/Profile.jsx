@@ -1,6 +1,8 @@
 import React from 'react';
-import s from './Profile.module.css'
-import NewPost from './NewPost/NewPost'
+import NewPost from './MyPosts/NewPost';
+import s from './Profile.module.css';
+// import NewPost from './MyPosts/NewPost';
+
 
 const Profile = () => {
     return (
@@ -12,14 +14,9 @@ const Profile = () => {
           Detailed description
         </div>
         <div>
-          Part1
+          <NewPost />
         </div>
-        <div>
-          Part2
-        </div>
-        <div>
-          Part3
-        </div>
+        
       </div> 
     
     )
