@@ -1,14 +1,19 @@
 import React from 'react';
-import Post from '../Post/Post';
 import s from './NewPost.module.css';
+import Post from '../Post/Post';
 
 const NewPost = () => {
+    
     return (
+        
+
+            
         <div>
-            My port
+            My posts
             <div>
                 <textarea></textarea>
                 <button>Add post</button>
+                
             </div>
             <div className={s.posts}>
                 <Post message='Hi, how are you' />

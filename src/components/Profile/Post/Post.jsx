@@ -8,7 +8,7 @@ const Post = (props) => {
             
             
                 <div className={s.item}>
-                  <img  src="https://image.shutterstock.com/image-vector/vector-male-face-avatar-logo-600w-426321556.jpg" />
+                  <img  src="http://assets.stickpng.com/images/59db69d33752880e93e16efc.png"/>
 
                   {props.message}  
                     
