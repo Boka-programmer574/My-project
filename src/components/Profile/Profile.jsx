@@ -1,7 +1,8 @@
 import React from 'react';
 import NewPost from './MyPosts/NewPost';
+
 import s from './Profile.module.css';
-// import NewPost from './MyPosts/NewPost';
+
 
 
 const Profile = () => {

@@ -1,0 +1,13 @@
+.item {
+    color: rgb(39, 54, 104);
+    margin: 10px;
+    block-size: 50px;
+}
+
+
+
+
+
+.item img {
+    width: 30px;
+}
