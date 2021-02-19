@@ -8,9 +8,12 @@
 
   
 
-  .item {
-      color: mediumvioletred;
+  .item a {
+      color: rgb(61, 47, 255);
       margin: 3px;
   }
 
+  a.active {
+      color: blueviolet;
+  }
   

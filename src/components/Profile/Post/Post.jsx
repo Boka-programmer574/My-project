@@ -5,17 +5,18 @@ import s from './Post.module.css';
 const Post = (props) => {
     return (
         
-            
+            <div>
             
                 <div className={s.item}>
-                  <img  src="http://assets.stickpng.com/images/59db69d33752880e93e16efc.png"/>
+                  <img  src="imgres.jpg" />
 
                   {props.message}  
                     
                     <div>
-                    <span>like</span>
+                    <span>like</span> {props.likesCount}
                 </div>
                 </div>
+                </div> 
                 
                 
                 
