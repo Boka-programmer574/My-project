@@ -1,33 +1,33 @@
-import React from 'react';
-import s from './NewPost.module.css';
-import Post from '../MyPosts/../Post/Post';
+import React from "react";
+import s from "./NewPost.module.css";
+import Post from "../MyPosts/../Post/Post";
 
 const NewPost = (props) => {
+   
     
-    return (
-        
+
+  let postsElements = 
+       props.posts.map(post => <Post message={post.message} likesCount={post.likesCount} />)
+  
+  return (
+    <div>
+      {props.message}
+      <div className={s.item}>
+        <h3>My posts </h3>
         <div>
-        {props.message} 
-        <div>
-            
-            My posts
-            <div>
-                <textarea></textarea>
-                <button>Add post</button>
-                
-            </div>
-            <div className={s.posts}>
-                <Post message='Hi, how are you' likesCount='0'/>
-                <Post message='It is very well' likesCount='7' />
-                <Post message='Welcome' likesCount='9'/>
-                <Post message='Good' likesCount='0'/>
-                <Post message='Good Bye' likesCount='3' />
-                
-                
-             </div>
-             </div>
-         </div>   
-    )
-}
+          <textarea></textarea>
+          <div>
+            <button>Add post</button>
+            <button>Remove</button>
+          </div>
+        </div>
+        <div className={s.posts}>
+          {postsElements}
+          
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default NewPost;

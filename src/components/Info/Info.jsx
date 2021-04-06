@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './Inform.module.css';
 
-const Inform = () => {
+const Info = () => {
     return (
         <div>
-            Dialogs
+            Informaition
         </div>
     );
 }
 
-export default Inform;
+export default Info;

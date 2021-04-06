@@ -11,6 +11,7 @@
   .item a {
       color: rgb(61, 47, 255);
       margin: 3px;
+      text-decoration: none;
   }
 
   a.active {

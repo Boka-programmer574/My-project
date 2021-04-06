@@ -1,10 +1,10 @@
-.foto {
+.item {
     grid-area:  f;
     background-color: grey;
     margin: 1px;
 }
 
-.foto img {
+.item img {
     width: 150px;
 }
 
